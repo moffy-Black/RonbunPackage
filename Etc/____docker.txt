@@ -1,0 +1,27 @@
+
+<論文コンパイル>
+⒈Thesis2020.zip をダウンロード解凍する（ホームディレクトリのところに解凍する）
+⒉main.pdfを作成するための手順↓
+2.1.ドッカーをプルする
+docker pull myutaka3/ubuntu-texlive_full
+2.2.エディターでThesis2020のフォルダのmain.texを開く
+2.3.学籍番号と自分の名前を変更する。年度は2019年、提出は2020年、タイトル名を変更する
+2.4.Thesis2020に移動をする（ターミナルで）
+2.5.dockerを動かしてmain.pdfに変更したところを反映させる（dmklatex.batが動く）
+docker run -i -t --rm -v $HOME/Thesis2020:/thesis myutaka3/ubuntu-texlive_full /thesis/dmklatex.bat
+2.6.main.pdfを見て変更が反映されているか確認をする （編集済み） 
+
+抄録も同様
+⒈Abstract2020.zip をダウンロード解凍する（ホームディレクトリのところに解凍する）
+⒉main.pdfを作成するための手順↓
+2.2.エディターでAbstract2020のフォルダのmain.texを開く
+2.3.学籍番号と自分の名前を変更する。年度は2020年、提出は2021年、タイトル名を変更する
+2.4.Abstract2020に移動をする（ターミナルで）
+2.5.dockerを動かしてmain.pdfに変更したところを反映させる（dmklatex.batが動く）
+docker run -i -t --rm -v /Users/koki/work_space/RonbunPackage/Abstract2020:/abstract myutaka3/ubuntu-texlive_full /abstract/dmklatex.bat
+2.6.main.pdfを見て変更が反映されているか確認をする （編集済み） 
+
+
+
+
+https://qiita.com/Gandats/items/d7718f12d71e688f3573
