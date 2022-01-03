@@ -1,56 +1,47 @@
 \contentsline {chapter}{論文要旨}{i}
-\contentsline {chapter}{謝辞}{ii}
+\contentsline {chapter}{謝辞}{iii}
 \contentsline {chapter}{\numberline {第1章}はじめに}{1}
 \contentsline {section}{\numberline {1.1}背景}{1}
-\contentsline {section}{\numberline {1.2}研究目的}{1}
-\contentsline {section}{\numberline {1.3}関連研究}{2}
-\contentsline {section}{\numberline {1.4}論文構成}{2}
-\contentsline {chapter}{\numberline {第2章}宮治研用 \LaTeX スタイルパッケージの使い方}{4}
-\contentsline {section}{\numberline {2.1}\LaTeX を利用する理由}{4}
-\contentsline {subsection}{\numberline {2.1.1}\LaTeX を利用するメリット/デメリット}{4}
-\contentsline {subsection}{\numberline {2.1.2}デメリットを解決する = 本パッケージの利用}{5}
-\contentsline {section}{\numberline {2.2}ファイル構成}{6}
-\contentsline {section}{\numberline {2.3}settings.tex： 論文の設定情報を記述}{7}
-\contentsline {subsection}{\numberline {2.3.1}各自の情報設定}{7}
-\contentsline {subsubsection}{サブタイトル有りの場合}{7}
-\contentsline {subsubsection}{サブタイトル無しの場合}{8}
-\contentsline {subsection}{\numberline {2.3.2}スタイルパッケージの動作確認}{8}
-\contentsline {section}{\numberline {2.4}main.tex： 大元となり、論文構成を記述}{9}
-\contentsline {subsection}{\numberline {2.4.1}論文要旨の読み込み}{10}
-\contentsline {subsection}{\numberline {2.4.2}謝辞の読み込み}{10}
-\contentsline {subsection}{\numberline {2.4.3}目次の設定}{10}
-\contentsline {subsection}{\numberline {2.4.4}各章の読み込み}{11}
-\contentsline {subsection}{\numberline {2.4.5}付録の設定と読み込み}{11}
-\contentsline {subsection}{\numberline {2.4.6}参考文献の設定と読み込み}{11}
-\contentsline {chapter}{\numberline {第3章}\LaTeX の利用例}{13}
-\contentsline {section}{\numberline {3.1}基本的な使い方}{13}
-\contentsline {subsection}{\numberline {3.1.1}章と節、節々}{13}
-\contentsline {subsection}{\numberline {3.1.2}改行と改段落}{14}
-\contentsline {section}{\numberline {3.2}図の挿入}{15}
-\contentsline {subsection}{\numberline {3.2.1}挿入方法}{15}
-\contentsline {subsection}{\numberline {3.2.2}図の位置の指定}{16}
-\contentsline {subsection}{\numberline {3.2.3}図の参照}{17}
-\contentsline {section}{\numberline {3.3}表の挿入}{17}
-\contentsline {subsection}{\numberline {3.3.1}表の作成と変換方法}{18}
-\contentsline {subsubsection}{表の作成}{18}
-\contentsline {subsubsection}{表の変換}{18}
-\contentsline {subsubsection}{表の修正}{19}
-\contentsline {subsection}{\numberline {3.3.2}横罫線の設定}{20}
-\contentsline {subsection}{\numberline {3.3.3}表内の基本部分の表示位置の変更}{21}
-\contentsline {subsection}{\numberline {3.3.4}表の参照}{22}
-\contentsline {subsection}{\numberline {3.3.5}表の位置の設定}{22}
-\contentsline {subsection}{\numberline {3.3.6}縦罫線の設定と表内見出しなどの位置変更}{22}
-\contentsline {subsubsection}{縦罫線の設定}{22}
-\contentsline {subsubsection}{表内の見出し行などの部分の表示位置の変更}{23}
-\contentsline {section}{\numberline {3.4}参考文献と参照}{24}
-\contentsline {chapter}{\numberline {第4章}Visual Studio Codeで編集する人へ}{26}
-\contentsline {section}{\numberline {4.1}コンパイルのための設定}{26}
-\contentsline {section}{\numberline {4.2}LaTeX Workshop の設定}{27}
-\contentsline {section}{\numberline {4.3}分割（子ファイル）コンパイル}{28}
-\contentsline {section}{\numberline {4.4}テキスト校正くん}{28}
-\contentsline {chapter}{\numberline {第5章}システム構成図の例}{29}
-\contentsline {chapter}{\numberline {付録A}プログラムの動作方法}{31}
-\contentsline {section}{\numberline {A.1}ファイル構成}{31}
-\contentsline {section}{\numberline {A.2}起動方法}{31}
-\contentsline {section}{\numberline {A.3}表示の見方}{31}
-\contentsline {chapter}{参考文献}{32}
+\contentsline {section}{\numberline {1.2}研究目的}{2}
+\contentsline {section}{\numberline {1.3}論文構成}{2}
+\contentsline {chapter}{\numberline {第2章}関連研究}{3}
+\contentsline {section}{\numberline {2.1}対話よるムード推定に基づく楽曲推薦エージェントの開発}{3}
+\contentsline {section}{\numberline {2.2}物体の色や表情情報を利用した画像の印象にあった音楽推薦手法の提案}{3}
+\contentsline {section}{\numberline {2.3}歌詞解析と心拍変動分析を用いた楽曲によふ感情への影響の予備的調査}{4}
+\contentsline {section}{\numberline {2.4}本研究の位置付け}{4}
+\contentsline {chapter}{\numberline {第3章}歌詞の印象推定}{5}
+\contentsline {section}{\numberline {3.1}分析手法}{5}
+\contentsline {subsection}{\numberline {3.1.1}MAP推定}{5}
+\contentsline {subsection}{\numberline {3.1.2}PLSA}{7}
+\contentsline {subsection}{\numberline {3.1.3}日本語版ANEW拡張データセット}{8}
+\contentsline {section}{\numberline {3.2}歌詞の印象推定手法}{9}
+\contentsline {subsection}{\numberline {3.2.1}印象の定義}{9}
+\contentsline {subsection}{\numberline {3.2.2}歌詞データの収集}{9}
+\contentsline {subsection}{\numberline {3.2.3}歌詞データの整形}{9}
+\contentsline {subsection}{\numberline {3.2.4}歌詞印象推定}{9}
+\contentsline {section}{\numberline {3.3}AV平面にプロット}{12}
+\contentsline {subsection}{\numberline {3.3.1}楽曲}{12}
+\contentsline {subsection}{\numberline {3.3.2}フレーズ}{17}
+\contentsline {chapter}{\numberline {第4章}実験}{22}
+\contentsline {section}{\numberline {4.1}目的}{22}
+\contentsline {section}{\numberline {4.2}方法}{22}
+\contentsline {subsection}{\numberline {4.2.1}歌詞の印象評価}{23}
+\contentsline {subsection}{\numberline {4.2.2}フレーズの印象評価}{23}
+\contentsline {section}{\numberline {4.3}結果}{24}
+\contentsline {subsection}{\numberline {4.3.1}歌詞の印象評価}{24}
+\contentsline {subsubsection}{喜クラス}{24}
+\contentsline {subsubsection}{怒クラス}{28}
+\contentsline {subsubsection}{哀クラス}{31}
+\contentsline {subsubsection}{楽クラス}{34}
+\contentsline {subsection}{\numberline {4.3.2}フレーズの印象評価}{37}
+\contentsline {subsubsection}{喜クラス}{37}
+\contentsline {subsubsection}{怒クラス}{40}
+\contentsline {subsubsection}{哀クラス}{43}
+\contentsline {subsubsection}{楽クラス}{46}
+\contentsline {section}{\numberline {4.4}考察}{49}
+\contentsline {subsection}{\numberline {4.4.1}歌詞の印象評価実験の考察}{49}
+\contentsline {subsection}{\numberline {4.4.2}フレーズの印象評価実験の考察}{49}
+\contentsline {chapter}{\numberline {第5章}おわりに}{51}
+\contentsline {section}{\numberline {5.1}まとめ}{51}
+\contentsline {section}{\numberline {5.2}今後の課題}{51}
+\contentsline {chapter}{参考文献}{53}
