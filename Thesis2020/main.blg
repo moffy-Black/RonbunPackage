@@ -7,56 +7,51 @@ A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: chap4.aux
 A level-1 auxiliary file: chap5.aux
 The style file: junsrt.bst
-I found no \citation commands---while reading file main.aux
 Database file #1: myrefs.bib
-I was expecting a `,' or a `}'---line 23 of file myrefs.bib
- : author="James 
- :               A. Russell",
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 64 of file myrefs.bib
- : author="Robert 
- :                Plutchik",
-I'm skipping whatever remains of this entry
-You've used 0 entries,
+Warning--there's a number but no volume in 2
+Warning--there's a number but no volume in 10
+Warning--there's a number but no volume in 12
+Warning--empty booktitle in 13
+You've used 14 entries,
             2270 wiz_defined-function locations,
-            543 strings with 4092 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            621 strings with 5888 characters,
+and the built_in function-call counts, 4320 in all, are:
+= -- 318
+> -- 113
+< -- 23
++ -- 47
+- -- 33
+* -- 218
+:= -- 512
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 18
+duplicate$ -- 281
+empty$ -- 433
+format.name$ -- 66
+if$ -- 1076
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 14
+missing$ -- 11
+newline$ -- 71
+num.names$ -- 14
+pop$ -- 98
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 234
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 212
+swap$ -- 91
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-is.kanji.str$ -- 0
-(There were 3 error messages)
+warning$ -- 4
+while$ -- 31
+width$ -- 16
+write$ -- 144
+is.kanji.str$ -- 150
+(There were 4 warnings)

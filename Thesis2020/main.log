@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2018.8.24)  3 JAN 2022 11:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2018.8.24)  5 JAN 2022 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,13 +640,18 @@ File: 4312.pdf Graphic file (type pdf)
 
 
 ] [52] (./main.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 18.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 18.
+ [53
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [53
-
-
-]
+]) [54]
 No file main.ind.
 (./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
 (./chap5.aux))
@@ -655,12 +660,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3192 strings out of 493640
- 39485 string characters out of 6150528
+ 3210 strings out of 493640
+ 39581 string characters out of 6150528
  108091 words of memory out of 5000000
- 6603 multiletter control sequences out of 15000+600000
- 26185 words of font info for 116 fonts, out of 8000000 for 9000
+ 6620 multiletter control sequences out of 15000+600000
+ 26531 words of font info for 117 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  34i,18n,45p,316b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (59 pages, 117468 bytes).
+Output written on main.dvi (60 pages, 121384 bytes).

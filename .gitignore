@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 /node_modules
-=======
-node_modules
-package-lock.json
-package.json
-.textlintrc
-.DS_Store
->>>>>>> feature/Abstract
+*.aux
+*.bbl
+*.xbb
+*.log

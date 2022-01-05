@@ -3,53 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: junsrt.bst
 Database file #1: myrefs.bib
-Warning--I didn't find a database entry for "1"
-Warning--I didn't find a database entry for "3"
-Warning--I didn't find a database entry for "4"
-Warning--I didn't find a database entry for "5"
-Warning--I didn't find a database entry for "6"
-Warning--I didn't find a database entry for "7"
-Warning--I didn't find a database entry for "8"
-You've used 0 entries,
+Warning--there's a number but no volume in 2
+Warning--there's a number but no volume in 6
+Warning--there's a number but no volume in 8
+You've used 10 entries,
             2270 wiz_defined-function locations,
-            543 strings with 4052 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            594 strings with 5363 characters,
+and the built_in function-call counts, 3113 in all, are:
+= -- 225
+> -- 85
+< -- 17
++ -- 35
+- -- 25
+* -- 161
+:= -- 370
+add.period$ -- 28
+call.type$ -- 10
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 13
+duplicate$ -- 198
+empty$ -- 310
+format.name$ -- 50
+if$ -- 775
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 10
+missing$ -- 7
+newline$ -- 51
+num.names$ -- 10
+pop$ -- 71
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 168
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 152
+swap$ -- 66
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-is.kanji.str$ -- 0
-(There were 7 warnings)
+warning$ -- 3
+while$ -- 22
+width$ -- 12
+write$ -- 103
+is.kanji.str$ -- 108
+(There were 3 warnings)
