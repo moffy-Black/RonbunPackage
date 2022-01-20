@@ -1,54 +1,33 @@
 \documentclass[a4paper,10pt,twocolumn]{jsarticle}
 \usepackage{myjlababsstyle}
 \begin{document}
-\section{\LaTeX で抄録を作成する上での注意事項}
-\LaTeX ので抄録を作成するうえでの注意事項について、主要なポイントについて記す。
+\section{実験}
+\subsection{方法}
+本研究の印象推定方法によって推定された歌詞と歌詞中に出現するフレーズの印象が妥当であるか効果を評価する．
+実験参加者は10代後半から20代前半の大学生男女11名である．男女の内訳は男子7名，女子4名である．
+実験参加者には実験前に印象の定義について十分に説明をした．
 
-\subsection{一番大きな文章単位： 節}
-論文と抄録では、文章を作成する際のスタイルファイルが異なる。
-宮治研の\LaTeX スタイルパッケージにおいて、論文では\verb+jsbook.cls+を、抄録においては\verb+jsarticle.cls+を用いている。
+アンケートを作成しデータを収集した．歌詞とフレーズに対して喜怒哀楽いずれの感性を感じるか質問した．
+質問の解答項目は喜・怒・哀・楽・わからないである．
+アンケートに使用した歌詞とフレーズは4印象のグループからそれぞれ原点からの距離に基づいてward法で3つのグループにクラスタリングをしたものから1つずつランダムで選出した．
 
-ここで、\verb+jsarticle.cls+を利用する際には、「章(\verb+\chapter{}+)」を利用することができない。
-したがって、一番大きな枠組みとして「節(\verb+\section{}+)」を利用することになる。
-
-\subsection{図表の位置の指定}
-論文を書く際には、図や表の位置は本文中の記載よりも後であれば、とくに気にする必要はなかった。
-そのため、\verb+\begin{figure}[htbp]+の様に記述し、h(この場所)ｔ(ページ上部)b(ページ下部)p(１ページ)の順の優先順位で図の位置を指定していた。
-
-しかし、抄録の場合、図や表の位置は論文の上部や下部にまとめる。
-その為、\verb+\begin{figure}[b]+もしくは\verb+\begin{figure}[t]+のように指示をする必要がある。
-
-なお、図の文字サイズは、本サンプルファイル程度の小ささが限界と考えること。
-
-\begin{screen}
-{\small
-\begin{verbatim}
-\begin{figure}[b]
-\centering
-\includegraphics[width=8cm]{MMS.pdf}
-\vspace{-7mm}
-\caption{MMSの内部構成}
-\label{fig:mms}
-\vspace{2mm}
-\end{figure}
-\end{verbatim}
-}
-\end{screen}
-
+\subsection{結果}
+推定した印象と実験参加者の回答の過半数以上が合っていることを妥当であると定義する．
+歌詞においては喜のクラスの印象の推定結果が妥当であることを確認した．
+フレーズにおいては喜のクラスと哀，楽のクラスの1部分において妥当であることを確認した．妥当であると判断したグループ数を印象ごとに図1で示す．
 \begin{figure}[b]
     \centering
-    \includegraphics[width=8cm]{MMS.pdf}
-    \vspace{-7mm}
-    \caption{MMSの内部構成}
+    \includegraphics[angle=-90,width=8cm]{result.pdf}
+    \vspace{0mm}
+    \caption{妥当であると判断されたグループ数}
     \label{fig:mms}
     \vspace{5mm}
 \end{figure}
-
-\subsection{参考文献について}
-抄録においては、参考文献のフォーマットも省略することが多いのだが、今回は論文時と同様の表記にて提出することとした。
-
-参考文献を記載するファイルは新たに作成せず、論文と同じ \verb+myrefs.bib+ファイルをスタイルパッケージのフォルダにコピーし、しかるべき引用命令を入れれば良い。
-サンプルとして、論文\cite{Kogami2009}、書籍（の一部）\cite{WelfareJapan}、書籍\cite{Nakata2010}、予稿集\cite{Miyaji2003ROMAN}、その他(Webサイトなど)\cite{HTUlatex}を組み込んだ。
+\subsection{考察}
+歌詞とフレーズどちらにおいても喜の印象の推定結果が妥当であった理由は事前知識が他の印象と比べて豊富であったためであると考えられる．
+事前知識が十分に収集できないとMAP推定する際に未知の単語が多くなる．
+未知の単語に対してMAP推定する際には無情報事前分布を与えるので，MAP推定前のP(w\verb+|+z)がMAP推定後のP(w\verb+|+z)の分布に大きく影響を残す．
+したがって潜在的トピックを印象に制限できないため妥当でない結果となったと考慮する．
 
 %
 \end{document}

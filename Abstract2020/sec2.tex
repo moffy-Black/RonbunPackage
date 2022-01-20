@@ -1,57 +1,15 @@
 \documentclass[a4paper,10pt,twocolumn]{jsarticle}
 \usepackage{myjlababsstyle}
 \begin{document}
-\section{宮治研~抄録\LaTeX スタイルパッケージの使い方}
-基本的に論文のスタイルパッケージと同様に作業をすれば良い。
-たとえば、\verb+main.tex+ファイルに必要事項を記載し、適切なファイルを取り込むように指定し、バッチコマンドを利用すれば、PDFファイルができ上がる。
+\section{関連研究と本研究の位置付け}
+角田ら（2018）\cite{4}は印象をPlutchikの感情モデルの基本8感情を用いて推定した．歌詞中の単語に対し，Word2Vecを利用してベクトル変換をおこなう．
+基本8感情との類似度を算出して，一番類似度が高い感情をテキストから得られる印象とした．
 
-なお、抄録を記述する際注意事項として、スタイルパッケージの利用方法以外については次節にて解説する。
-
-\subsection{サブタイトル有りの場合}
-配布したファイルは、サブタイトルがある場合のサンプルになっている。
-まず、年度／学籍番号／氏名、タイトル、サブタイトルを所定の命令内に記入する。
-\begin{screen}
-{\small
-%footnotesize
-\begin{verbatim}
-\nendo{2019年度}
-\snum{15387019}
-\jname{宮治 裕}
-\thesistitle{宮治研における論文作成について}
-\thesissubtitle{\LaTeX の利用}
-\end{verbatim}
-}
-\end{screen}
-次に \verb+\SUBTtrue+は命令の先頭に\verb+%+がつかない状態に、\verb+\SUBTfalse+は命令の先頭に\verb+%+がつく状態にする。
-\verb+%+ が付いているのは、コメントアウト状態であり、コンパイル処理されないことを示す。
-\begin{screen}
-{\small
-%footnotesize
-\begin{verbatim}
-\SUBTtrue
-%\SUBTfalse
-\end{verbatim}
-}
-\end{screen}
-
-\subsection{サブタイトル無しの場合}
-サブタイトル有りの場合と比較して3箇所の変更が必要である。
-\begin{enumerate}
-\item サブタイトルを記入する命令の先頭部分に \verb+%+ 記号を入れ、コメントアウト状態にする
-\item \verb+\SUBTtrue+の前に\verb+%+ 記号を入れ、コメントアウト状態にする
-\item コメントアウト状態の \verb+\SUBTfalse+の直前の \verb+%+ 記号を削除する
-\end{enumerate}
-以上の変更を行った設定を示す。
-\begin{screen}
-{\small
-%footnotesize
-\begin{verbatim}
-%\thesissubtitle{}
-%\SUBTtrue
-\SUBTfalse
-\end{verbatim}
-}
-\end{screen}
-
+歌詞情報から印象を推定する研究は未だ発展途上であるため，Word2Vecや日本語評価極性辞書以外で印象推定する手法を提案する．
+西川ら\cite{3}は英語の感情価単語セットANEW\cite{7}を用いて，歌詞をRussellのArousal-Valence平面\cite{9}（以後AV平面）上で表現する研究をした．歌詞の各フレーズが持つ単語のAV平面座標を推定して，フレーズごとの平面座標を求めた．
+この印象推定手法は英語の歌詞を用いて効果測定が行われたが，日本語の歌詞での効果測定は行われていない．
+本間ら\cite{8}はANEWの単語を参考にして，日本語訳した単語セットを作成した．
+よって，本間らの単語セットを利用すれば，西川らが考案した手法を日本語の歌詞の印象推定でも一定の効果を挙げられることが予想される．
+本研究では日本語の歌詞の場合においても西川らの手法で印象推定できるのか調査する．
 %
 \end{document}

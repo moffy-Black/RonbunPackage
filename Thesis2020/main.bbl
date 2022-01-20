@@ -1,65 +1,78 @@
 \begin{thebibliography}{10}
 
-\bibitem{test}
-Twitter Inc.
-\newblock Tex manual.
+\bibitem{1}
+一般社団法人日本レコード協会.
+\newblock 2020年度「音楽メディアユーザー実態調査」.
 \newblock
-  \url{http://hs.hc.uec.ac.jp/index.php?plugin=attach&refer=Tex&openfile=TeXマニュアル.pdf}~(ref
-  2013-10-31).
+  \url{https://www.riaj.or.jp/f/pdf/report/mediauser/softuser2020.pdf}~(参照
+  2021-12-17).
 
-\bibitem{mactex}
-奥村~晴彦他.
-\newblock Tex wiki mac.
-\newblock
-  MacTeXインストールの概略，\url{https://texwiki.texjp.org/?MacTeX}~(参照
-  2019-10-26).
+\bibitem{2}
+奥健太.
+\newblock 楽曲推薦システム ─プレイリスト，コンテキスト，インタラクション─.
+\newblock 人工知能, No.~34, pp. 300--308, may 2019.
 
-\bibitem{w32tex}
-奥村~晴彦他.
-\newblock Tex wiki w32tex.
-\newblock \url{https://texwiki.texjp.org/?W32TeX}~(参照 2019-10-16).
+\bibitem{3}
+James~A. Russell.
+\newblock A circumplex model of affect.
+\newblock {\em Journal of Personality and Social Psychology}, Vol. Vol.39,
+  No.~6, pp. 1161--1178, 1980.
 
-\bibitem{HTUlatex}
-電気通信大学佐藤研究室.
-\newblock Tex マニュアル.
-\newblock
-  \url{http://hs.hc.uec.ac.jp/index.php?plugin=attach&refer=Tex&openfile=TeXマニュアル.pdf}~(参照
-  2013-10-31).
+\bibitem{4}
+西川直毅, 糸山克寿, 藤原弘将, 後藤真孝, 尾形哲也, 奥乃博.
+\newblock 歌詞と音響特徴量を用いた楽曲印象軌跡推定法の設計と評価.
+\newblock 研究報告音楽情報科学（MUS）, Vol. 2011-MUS-91, No.~7, pp. 1--8, jul
+  2011.
 
-\bibitem{Kogami2009}
-湖上潤, 宮治裕, 富山健.
-\newblock 人間共生ロボットにおける擬似感性システムの構築と評価.
-\newblock 日本感性工学会論文誌, pp. 601--609, September 2009.
+\bibitem{5}
+角田拓己, 大囿忠親, 新谷虎松.
+\newblock 対話よるムード推定に基づく楽曲推薦エージェントの開発.
+\newblock 第80回全国大会講演論文集, Vol. 2018, No.~1, pp. 157--158, mar 2018.
 
-\bibitem{WelfareJapan}
-富山健, 宮治裕.
-\newblock 介護者支援ロボットシステムの提案.
-\newblock  小原信, 神長勲（編）, 日本の福祉, 第13章, pp. 301--329. 以文社, July
-  2001.
-\newblock (ISBN4-7531-0217-3).
+\bibitem{6}
+Robert Plutchik.
+\newblock A psychoevolutionary theory of emotions.
+\newblock {\em Social Science Information}, Vol. Vol.21, No. 4-5, pp. 529--553,
+  July 1982.
 
-\bibitem{Nakata2010}
-中田亨.
-\newblock 理系のための「即効！」論文術.
-\newblock 講談社, 2010.
+\bibitem{7}
+追木智明, 欅惇志, 宮崎純.
+\newblock 物体の色や表情情報を利用した画像の印象にあった音楽推薦手法の提案.
+\newblock 情報処理学会研究報告 情報基礎とアクセス技術(IFAT), 9 2018.
 
-\bibitem{Miyaji2003ROMAN}
-Yutaka Miyaji and Ken Tomiyama.
-\newblock Construction of virtual kansei by petri-net with ga and method of
-  constructing personality.
-\newblock In {\em Proceedings ROMAN2003, 12th IEEE Workshop Robot and Human
-  Interactive Communication}, pp. 6B4(CD--ROM), November 2003.
+\bibitem{8}
+Georgios Paltoglou and Mike Thelwall.
+\newblock Seeing stars of valence and arousal in blog posts.
+\newblock {\em IEEE Trans. Affect. Comput.}, Vol.~4, No.~1, pp. 116--123, 2013.
 
-\bibitem{popunbom1}
-@popunbom.
-\newblock Qiita: Vscode で latex を書く (2018).
-\newblock \url{https://qiita.com/popunbom/items/7d02fc75ad23b735d28c}~(参照
-  2019-10-26).
+\bibitem{9}
+Inderjit~S Dhillon and Dharmendra~S Modha.
+\newblock Concept decompositions for large sparse text data using clustering.
+\newblock {\em Machine learning}, Vol.~42, No. 1-2, pp. 143--175, 2001.
 
-\bibitem{texwikivscode}
-奥村~晴彦他.
-\newblock Tex wiki visual studio code/latex.
-\newblock \url{https://texwiki.texjp.org/?Visual%20Studio%20Code%2FLaTeX}~(参照
-  2019-10-25).
+\bibitem{10}
+大木麻里衣, 丸野由希, 久保孝富.
+\newblock 歌詞解析と心拍変動分析を用いた楽曲による感情への影響の予備的調査.
+\newblock 2018年度 情報処理学会関西支部 支部大会 講演論文集, No. 2018, sep
+  2018.
+
+\bibitem{11}
+Margaret~M. Bradley, Peter~J. Lang, Margaret~M. Bradley, and Peter~J. Lang.
+\newblock Affective norms for english words (anew): Instruction manual and
+  affective ratings, 1999.
+
+\bibitem{12}
+本間喜子.
+\newblock 単語の感情価と覚醒度にもとづいた単語刺激の作成.
+\newblock 愛知工業大学研究報告, No.~49, pp. 13--24, mar 2014.
+
+\bibitem{13}
+Thomas Hofmann.
+\newblock Probabilistic latent semantic analysis.
+\newblock 1999.
+
+\bibitem{14}
+Francis Bond, Timothy Baldwin, Richard Fothergill, and Kiyotaka Uchimoto.
+\newblock Japanese semcor: A sense-tagged corpus of japanese.
 
 \end{thebibliography}

@@ -8,7 +8,7 @@ docker pull myutaka3/ubuntu-texlive_full
 2.3.学籍番号と自分の名前を変更する。年度は2019年、提出は2020年、タイトル名を変更する
 2.4.Thesis2020に移動をする（ターミナルで）
 2.5.dockerを動かしてmain.pdfに変更したところを反映させる（dmklatex.batが動く）
-docker run -i -t --rm -v $HOME/Thesis2020:/thesis myutaka3/ubuntu-texlive_full /thesis/dmklatex.bat
+docker run -i -t --rm -v /Users/koki/work_space/RonbunPackage/Thesis2020:/thesis myutaka3/ubuntu-texlive_full /thesis/dmklatex.bat
 2.6.main.pdfを見て変更が反映されているか確認をする （編集済み） 
 
 抄録も同様
