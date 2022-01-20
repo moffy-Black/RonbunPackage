@@ -23,13 +23,13 @@ P(w\verb+|+z)はトピックから単語が観測される確率であるため�
 \end{equation}
 モデルパラメータP(w\verb+|+z)の対数事前分布を共役事前分布を用いて式（3.15）に定義する．kは出現する単語の集合を表す．
 \begin{equation}
-\rm{log Ｐ(θ)\propto\sum_k\sum_z(\alpha_{w_k,z}-1)\log P(w_k|z)}
+\rm{log Ｐ(w_k|z)\propto\sum_k\sum_z(\alpha_{w_k,z}-1)\log P(w_k|z)}
 \end{equation}
 共役事前分布のハイパーパラメータαは日本語版ANEW拡張データセットに含まれる単語で該当の象限に位置する場合のみ原点からの距離を入力する．それ以外の場合無情報事前分布を与える．
 ラグランジュの未定乗数法を使用して対数尤度関数と対数事前分布よりMAP推定値を求める
 MAP推定値は式（3.16）で表す．NはMAP推定前のP(w\verb+|+z)の和である．
 \begin{equation}
-\rm{P(w_k|z)_{map}=\frac{\alpha_{w_k,z}-1+p(w_k|z)}{1-K+\sum_k\sum_z\alpha_{w_k,z}}}
+\rm{P(w_k|z)_{map}=\frac{\alpha_{w_k,z}-1+p(w_k|z)}{1-K+\sum_k\alpha_{w_k,z}}}
 \end{equation}
 P(z)とP(d\verb+|+z)の推定には無情報事前分布を与えた．
 各印象ごとに単語wが出現する確率P(w\verb+|+z)をMAP推定した．ベイズの定理よりP(z\verb+|+w)は式（3.17）で求められる．

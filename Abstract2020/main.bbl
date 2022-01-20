@@ -1,11 +1,4 @@
-\begin{thebibliography}{10}
-
-\bibitem{1}
-一般社団法人日本レコード協会.
-\newblock 2020年度「音楽メディアユーザー実態調査」.
-\newblock
-  \url{https://www.riaj.or.jp/f/pdf/report/mediauser/softuser2020.pdf}~(参照
-  2021-12-17).
+\begin{thebibliography}{1}
 
 \bibitem{2}
 奥健太.
@@ -16,18 +9,6 @@
 角田拓己, 大囿忠親, 新谷虎松.
 \newblock 対話よるムード推定に基づく楽曲推薦エージェントの開発.
 \newblock 第80回全国大会講演論文集, Vol. 2018, No.~1, pp. 157--158, mar 2018.
-
-\bibitem{5}
-Robert Plutchik.
-\newblock A psychoevolutionary theory of emotions.
-\newblock {\em Social Science Information}, Vol. Vol.21, No. 4-5, pp. 529--553,
-  July 1982.
-
-\bibitem{6}
-大木麻里衣, 丸野由希, 久保孝富.
-\newblock 歌詞解析と心拍変動分析を用いた楽曲による感情への影響の予備的調査.
-\newblock 2018年度 情報処理学会関西支部 支部大会 講演論文集, No. 2018, sep
-  2018.
 
 \bibitem{3}
 西川直毅, 糸山克寿, 藤原弘将, 後藤真孝, 尾形哲也, 奥乃博.
